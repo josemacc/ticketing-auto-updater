@@ -41,7 +41,6 @@ export "DEFERRED_API_PASSW=23-88776654=17"
 # Restart Command
 export "RESTART_COMMAND=sudo usr/bin/systemctl reload apache2"
 
-
 export "REMOTE_API_URL=http://api.regional-occidente-prod.vpn:9088/api"
 export "PATH=$PATH:/opt/ticketing-machine:/opt/ticketing-machine/tolls_ticketing_proj"
 
