@@ -12,7 +12,7 @@ if tail -n 100 a.txt | grep -q "change"; then
         mv release-tolls-ticketing-api ticketing-machine
         mv dist ticketing-www
         # Run a Python file
-        python ticketing-updater.py
+        python3 ticketing-updater.py
         # Delete the folder
         rm -rf ticketing-machine
         rm -rf ticketing-www

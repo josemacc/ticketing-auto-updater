@@ -19,10 +19,10 @@ run_command(['sudo', 'chown', '-R', 'www-data:www-data', '/opt/ticketing-machine
 run_command(['sudo', 'rm', '-r', '/opt/ticketing-www'])
 run_command(['sudo', 'cp', '-r', 'ticketing-www', '/opt/'])
 run_command(['sudo', 'chown', '-R', 'www-data:www-data', '/opt/ticketing-www'])
-command = ['sudo', 'chmod', 'u+rw', '/var/log/apache2/ticketing/api-error.log']
+command = ['sudo', 'chmod', 'u+rw', '/var/log/apache2/ticketing_api/api-error.log']
 run_command(command)
 # UPDATE DEPENDENCIES
-run_command(['sudo', '/opt/ticketing-var/venv/bin/pip', 'install', '-r', '/opt/ticketing-machine/requirements.txt'])
+run_command(['sudo', '/opt/ticketing-var/venv38/bin/pip', 'install', '-r', '/opt/ticketing-machine/requirements.txt'])
 
 command = ['sudo', 'cp', 'manage.sh', '/opt/ticketing-commands/']
 run_command(command)
