@@ -8,7 +8,6 @@ export "CORS_ORIGIN_WHITELIST=http://www.ticketing-local.com"
 # Config files
 export "MODULES_FILE=modules.json"
 
-
 # Var (Logs and sessions)
 export "LOGGING_LEVEL=INFO"
 export "LOG_DIRECTORY=/opt/ticketing-var/log"
