@@ -18,4 +18,5 @@ if tail -n 100 a.txt | grep -q "change"; then
         rm -rf ticketing-www
         rm a.txt
 else rm a.txt
+
 fi
