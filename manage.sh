@@ -8,7 +8,6 @@ export "CORS_ORIGIN_WHITELIST=http://www.ticketing-local.com"
 # Config files
 export "MODULES_FILE=modules.json"
 
-
 # Var (Logs and sessions)
 export "LOGGING_LEVEL=INFO"
 export "LOG_DIRECTORY=/opt/ticketing-var/log"
@@ -39,10 +38,8 @@ export "DJANGO_SETTINGS_MODULE=tolls_ticketing_proj.settings"
 export "DEFERRED_API_USER=deferred_nodes_taguanes"
 export "DEFERRED_API_PASSW=23-88776654=17"
 
-
 # Restart Command
 export "RESTART_COMMAND=sudo usr/bin/systemctl reload apache2"
-
 
 export "REMOTE_API_URL=http://api.regional-occidente-prod.vpn:9088/api"
 export "PATH=$PATH:/opt/ticketing-machine:/opt/ticketing-machine/tolls_ticketing_proj"
