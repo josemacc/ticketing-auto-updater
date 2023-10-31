@@ -11,7 +11,6 @@ def run_command(command):
 
     print(result.stdout)
 
-
 # REPLACE PROJECT FOLDER
 run_command(['sudo', 'rm', '-r', '/opt/ticketing-machine'])
 run_command(['sudo', 'cp', '-r', 'ticketing-machine', '/opt/'])
@@ -28,8 +27,8 @@ command = ['sudo', 'cp', 'manage.sh', '/opt/ticketing-commands/']
 run_command(command)
 command = ['sudo', 'chmod', '+x', '/opt/ticketing-commands/manage.sh']
 run_command(command)
-
+print("ESTAMOS POR FALLAR")
 run_command(['sudo', '/opt/ticketing-commands/manage.sh', 'makemigrations'])
 run_command(['sudo', '/opt/ticketing-commands/manage.sh', 'migrate'])
-
+print("TODO EN ORDEN")
   
