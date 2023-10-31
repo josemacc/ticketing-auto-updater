@@ -38,7 +38,6 @@ export "DJANGO_SETTINGS_MODULE=tolls_ticketing_proj.settings"
 export "DEFERRED_API_USER=deferred_nodes_taguanes"
 export "DEFERRED_API_PASSW=23-88776654=17"
 
-
 # Restart Command
 export "RESTART_COMMAND=sudo usr/bin/systemctl reload apache2"
 
