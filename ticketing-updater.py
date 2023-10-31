@@ -11,6 +11,7 @@ def run_command(command):
 
     print(result.stdout)
 
+
 # REPLACE PROJECT FOLDER
 run_command(['sudo', 'rm', '-r', '/opt/ticketing-machine'])
 run_command(['sudo', 'cp', '-r', 'ticketing-machine', '/opt/'])
