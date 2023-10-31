@@ -45,5 +45,6 @@ export "RESTART_COMMAND=sudo usr/bin/systemctl reload apache2"
 export "REMOTE_API_URL=http://api.regional-occidente-prod.vpn:9088/api"
 export "PATH=$PATH:/opt/ticketing-machine:/opt/ticketing-machine/tolls_ticketing_proj"
 
+
 cd /opt/ticketing-machine
 /opt/ticketing-var/venv38/bin/python3.8 tolls_ticketing_proj/manage.pyc $1 $2 $3 $4 $5
