@@ -19,8 +19,6 @@ export "TEMPLATE_CAMERA_PATH=/opt/ticketing-www/camera/"
 export "CAMERA_URL=rtsp://admin:rseadmin1234@192.168.10.41:554/cam/realmonitor?channel=1&subtype=0"
 export "DISABLE_LICENCE_PLATE_CAMERA=0"
 
-
-
 # Regional API
 export "REGIONAL_API_URL=http://api.regional-occidente-prod.vpn:9088/api"
 
