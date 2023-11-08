@@ -16,7 +16,5 @@ if (tail -n 100 a.txt | grep -qi "updating") || (tail -n 100 a.txt | grep -qi "a
         # Delete the folder
         rm -rf ticketing-machine
         rm -rf ticketing-www
-        rm a.txt
-else rm a.txt
-
+        
 fi
