@@ -34,5 +34,6 @@ ctrl+x
 --ejecutar
 sudo udevadm control --reload-rules
 
+
 --Reconectar el conversor USB-SERIAL
 
