@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 # Security
 export "ALLOWED_HOSTS=api.ticketing-local.com www.ticketing-local.com"
 export "CSRF_TRUSTED_ORIGINS=www.ticketing-local.com"
