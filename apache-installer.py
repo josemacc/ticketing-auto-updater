@@ -11,7 +11,6 @@ def print_result(result):
 
     print(result.stdout)
 
-
 def run_command(command):
     result = subprocess.run(command, capture_output=True, text=True)
     print_result(result)
