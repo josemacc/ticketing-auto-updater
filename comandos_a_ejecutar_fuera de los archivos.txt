@@ -18,6 +18,7 @@ password: ticketing-lane1
 
 ------------PARA QUE NO CAMBIE EL TTYUSB0
 
+
 lsusb
 
 --verificar cuales son el idVendor y el idProduct del USB-SERIAL, el de los conversores que se usan ahorita son 1a86 y 7523 respectivamente
