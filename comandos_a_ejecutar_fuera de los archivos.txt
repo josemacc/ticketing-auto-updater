@@ -31,6 +31,8 @@ SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", SYMLINK+="t
 ctrl+s
 ctrl+x
 
+
+
 --ejecutar
 sudo udevadm control --reload-rules
 
