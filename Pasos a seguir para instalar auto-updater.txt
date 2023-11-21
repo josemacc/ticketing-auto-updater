@@ -1,0 +1,30 @@
+--- Pasos para instalar el auto updater
+
+sudo apt install git
+
+git clone https://github.com/josemacc/ticketing-auto-updater.git 
+
+cd ticketing-auto-updater
+
+chmod +x update-script.sh
+
+sudo visudo
+
+--- Y luego agregamos:
+
+[NOMBRE DE USUARIO]   ALL=NOPASSWD: ALL
+
+--- Salvamos y salimos
+
+CTRL + S
+CTRL + X
+
+--- Abrimos el crontab con:
+
+crontab -e
+
+1 [o elige el editor de texto de su preferencia]
+
+--- Ir al final agregar la siguiente linea:
+
+*/10 * * * * cd /home/[NOMBRE DE USUARIO]/ticketing-auto-updater; ./update-script.sh 
