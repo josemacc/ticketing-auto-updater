@@ -28,4 +28,3 @@ crontab -e
 --- Ir al final agregar la siguiente linea:
 
 */10 * * * * cd /home/[NOMBRE DE USUARIO]/ticketing-auto-updater; ./update-script.sh 
-
