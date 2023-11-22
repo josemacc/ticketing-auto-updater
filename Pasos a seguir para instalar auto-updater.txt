@@ -21,6 +21,7 @@ CTRL + X
 
 --- Abrimos el crontab con:
 
+
 crontab -e
 
 1 [o elige el editor de texto de su preferencia]
