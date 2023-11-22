@@ -16,6 +16,7 @@ sudo visudo
 
 --- Salvamos y salimos
 
+
 CTRL + S
 CTRL + X
 
