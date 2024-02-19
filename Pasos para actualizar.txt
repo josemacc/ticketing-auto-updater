@@ -4,7 +4,6 @@ scp tolls-raspberry-api_3.9.2_release.zip pi@192.168.10.13:/home/pi/Descargas/
 
 cd /home/pi/Descargas
 
-
 unzip tolls-raspberry-api_3.9.2_release.zip
 
 CUIDADO. LA CARPETA PODRIA LLAMARSE installer2 o installer3
