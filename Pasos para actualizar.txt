@@ -12,6 +12,7 @@ rm -r installer/raspberry-machine/*
 
 cp -r release-tolls-raspberry-api/* installer/raspberry-machine
 
+
 cd installer
 
 cp /etc/tolls/api.env .env
